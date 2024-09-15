@@ -1,0 +1,28 @@
+{
+    "name": "fxcjahid/laravel-assets-manager",
+    "description": "Easy css and js resource management in Laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Fxcjahid\\LaravelAssetsManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fxcjahid",
+            "email": "fxcjahid3@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fxcjahid\\LaravelAssetsManager\\Providers\\AssetsManagerServiceProvider",
+                "Fxcjahid\\LaravelAssetsManager\\Providers\\AssetsBladeServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0"
+    }
+}
