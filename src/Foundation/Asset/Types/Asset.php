@@ -12,10 +12,6 @@ abstract class Asset
 
         $url = "{$dirname}/{$name}";
 
-        if ($extension === 'css' && is_rtl()) {
-            $url .= '.rtl';
-        }
-
         return "{$url}.{$extension}";
     }
 
